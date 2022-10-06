@@ -1,0 +1,16 @@
+-- comando para rodar o mysql mariaDB
+source d:\Projetosql\dbacademia.sql
+
+
+-- acesso a comandos basicos do github  ou git
+https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf
+
+
+*** git versionamento de arquivo
+1° - criar usuario local se não existir
+	git config --global user.name "seuusuariodogit"
+	git config --global user.email 'seuemaildogit'
+
+2° iniciar a pasta para ser versionada
+	git init
+
