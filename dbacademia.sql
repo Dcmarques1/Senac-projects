@@ -27,6 +27,15 @@ codigo int,
 nome varchar(20),
 senha varchar(10));
 
+--criando tabela de produtos
+create table tbProdutos(
+codigo int,
+descricao varchar(150)
+valor decimal(9,2)
+dataEntrada date,
+horaEntrada time,
+quantidade decimal(9,2));
+
 -- visualizando as tabelas criadas
 show tables;
 
